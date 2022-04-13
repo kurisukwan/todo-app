@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: linear-gradient(45deg, #0077b6, #caf0f8);
+    animation: bg-animation 5s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.custom-container {
+    max-width: 45%;
+    min-width: 500px;
+    min-height: 520px;
+    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px grey;
+    border-radius: 5px;
+    padding-bottom: 135px;
+    background-color: whitesmoke;
+}
+
+.item-box {
+    height: 55px;
+    margin: 6px 32px 0px 32px;
+    border-radius: 4px;
+    padding: 0px 10px;
+    align-items: center;
+    border: solid 1px #abc4ff;
+    background-image: linear-gradient(-40deg, #ccdbfd, #e2eafc);
+}
+
+.icon-item {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.icon-item:hover {
+    color: #f8f9fa;
+}
+
+.input-form {
+    margin: 0 30px 30px 30px;
+    width: 50%;
+}
+
+label {
+    margin-left: 32px;
+    margin-top: 10px;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+li{
+    list-style: none;
+}
+
+.add-button {
+    height: 45px;
+    width: 85px;
+    margin: 0 30px 30px 0;
+}
+
+.update-input {
+    width: 60%;
+}
+
+.clear-div {
+    position: relative;
+    margin-left: 52px;
+}
+
+.clear-button {
+    position: absolute;
+    bottom: -90px;
+}
+
+.task-number-text {
+    position: absolute;
+    bottom: -82px;
+    left: 160px;
+}
+
+.no-task {
+    font-weight: 600;
+    color: #b7b7a4;
+}
